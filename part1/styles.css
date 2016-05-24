@@ -1,0 +1,33 @@
+body {
+  background-color: #202020;
+  color: #ffffff;
+}
+img {
+  max-height:100%;
+  max-width:100%;
+}
+h1 {
+    font-size: 48px;
+}
+
+.main {
+  position: fixed;
+  height:100%;
+  width:100%;
+}
+.left{
+  float:left;
+  width: 50%;
+  height: 100%;
+}
+.child{
+  height:50%;
+}
+
+.content {
+  text-align: center;
+  float:right;
+  height:100%;
+  width:50%;
+  padding-top:16em;
+}
