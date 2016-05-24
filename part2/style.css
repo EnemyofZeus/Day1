@@ -1,9 +1,14 @@
+body {
+  margin:0;
+  background: linear-gradient(to right,yellow 50%,green 50%);
+}
+
 .main {
   height:auto;
   width: auto;
 }
 
-#background-left {
+/*#background-left {
   background-color:#005555;
   position: relative;
   float:left;
@@ -17,7 +22,7 @@
   float:right;
   width:50%;
   height: 100%;
-}
+}*/
 img {
   max-width: 100%;
   max-height: 100%;
@@ -26,12 +31,12 @@ p {
   padding:0px;
 }
 #big-img {
-  position: absolute;
-  width: 25em;
+  position: relative;;
+  width: 50%;
   height:75%;
-  margin-left: 30em;
-  padding-top: 4em;
-  z-index: 1;
-  color:white;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: center;
+  color:#a9a9a9;
+
 }
